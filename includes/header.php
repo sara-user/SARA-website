@@ -1,3 +1,4 @@
+<?php $activePage = $activePage ?? ''; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,18 +30,18 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="nav nav-pills mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/history.php">History</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/repeaters.php">Repeaters</a>
+                    <a class="nav-link" <?php if ($activePage === 'home') echo 'active'; ?> href="/repeaters.php">Repeaters</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/nets.php">Nets</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact.php">Contact</a>
+                    <a class="nav-link" href="/contact.php" <?php if ($activePage === 'contact') echo 'active'; ?>>Contact</a>
                 </li>
             </ul>
         </div>

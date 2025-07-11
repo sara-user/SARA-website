@@ -1,5 +1,8 @@
 
-<?php include 'includes/header.php'; ?>
+<?php
+$activePage = 'contact';
+
+include 'includes/header.php'; ?>
 
 <div class="container">
     <p>Annual Dues are $30</p>
