@@ -3,8 +3,8 @@
 
 <div class="container">
     <p>Located in the Lincoln Park Community of Chicago.</p>
-    <table>
-        <thead>
+    <table class="table">
+        <thead class="table-primary">
         <tr>
             <th>Repeater</th>
             <th>Frequency</th>

@@ -14,7 +14,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/" title="Suburban Amateur Repeater Association">SARA</a>
+        <a class="navbar-brand" href="/index.php" title="Suburban Amateur Repeater Association">SARA</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,6 +26,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/repeaters.php">Repeaters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/nets.php">Nets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.php">Contact</a>
                 </li>
             </ul>
         </div>

@@ -1,0 +1,14 @@
+em {
+    font-style: italic;
+    background-color: #fff3cd;
+    padding: 0 4px;
+    border-radius: 2px;
+}
+body {
+    /*background: #f5f5f5;*/
+    /*color: #555;*/
+    font: 35px "Helvetica Nueue", sans-serif;
+    padding: 10px;
+    color: chocolate;
+    width: fit-content;
+}
