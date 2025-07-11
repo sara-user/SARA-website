@@ -1,6 +1,8 @@
 
 <?php include 'includes/header.php'; ?>
 
-<p>Todo contact form</p>
-
+<div class="container">
+    <p>Annual Dues are $30</p>
+    <p>For more information contact <a href="mailto:sara@u505.com?subject=Contact%20Request">Email us</a></p>
+</div>
 <?php include 'includes/footer.php'; ?>
