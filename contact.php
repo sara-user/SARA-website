@@ -12,11 +12,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $state    = htmlspecialchars($_POST['state'] ?? '');
     $zip      = htmlspecialchars($_POST['zip'] ?? '');
     $phone    = htmlspecialchars($_POST['phone'] ?? '');
-    $addGroup = isset($_POST['add_to_group']) ? 'Yes' : 'No';
+    $addGroup = isset($_POST['add_to_group']) ? 1 : 0;
 
-    // Compose email
-    $to = "your@email.com"; // Replace with your actual email
-    $subject = "New Form Submission";
+    // --- EMAIL ---
+    $to = "sara@u505.com";  // ← update this
+    $subject = "New Membership Submission";
     $message = <<<EOD
 Name: $name
 Email: $email
@@ -28,14 +28,36 @@ Zip: $zip
 Phone: $phone
 Add to Group: $addGroup
 EOD;
-
     $headers = "From: $email";
 
-    // Send email
-    $sent = mail($to, $subject, $message, $headers);
-    $status = $sent ? "✅ Message sent successfully." : "❌ Failed to send message.";
-}
+    $emailSent = mail($to, $subject, $message, $headers);
 
+    // --- DATABASE ---
+    $dbHost = "localhost";
+    $dbName = "sara-db";
+    $dbUser = "website";
+    $dbPass = "349B4Qoj5qXhF8W";
+
+    try {
+        $pdo = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUser, $dbPass);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        $stmt = $pdo->prepare("
+            INSERT INTO members (name, email, callsign, address, city, state, zip, phone, add_to_group)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ");
+        $stmt->execute([
+            $name, $email, $callsign, $address, $city, $state, $zip, $phone, $addGroup
+        ]);
+
+        $status = $emailSent
+            ? "✅ Message sent and saved successfully."
+            : "⚠️ Saved to database, but email failed.";
+
+    } catch (PDOException $e) {
+        $status = "❌ Database error: " . $e->getMessage();
+    }
+}
 ?>
 
 <div class="container">
