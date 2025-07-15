@@ -1,1 +1,1 @@
-<a href="/" class="btn btn-primary">SARA</a>
+<a href="/" class="btn btn-primary">Home</a>

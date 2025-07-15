@@ -1,6 +1,5 @@
 <?php
 include 'includes/header.php';
-include 'includes/back.php';
 ?>
 
 <div class="container">

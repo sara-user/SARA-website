@@ -85,8 +85,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-
-                    <div class="nets">
+                    <div>
                         <div class="card-body">
                             <h5 class="card-title">SARA Info<h5>
                             <p>
@@ -100,14 +99,40 @@
             </div>
             <div class="col">
                 <div class="card h-100">
+                    <div >
+                        <div class="card-body">
+                            <h5 class="card-title">Events</h5>
+                            <table class="table table-sm ">
+                                <tbody>
+                                <tr>
+                                    <td><a href="/picnic-2025.php">Picnic</td>
+                                    <td>August, 24, 2025</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/papaChris.php">Saturday Lunch</a></td>
+                                    <td>Saturdays</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/holidayParty.php">Holiday Party</a></td>
+                                    <td>December</td>
+                                </tr>
 
-                    <div class="history">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div >
                         <div class="card-body">
                             <h5 class="card-title">History<h5>
                             <p>
-                                How we got here.
+                                Since 1967
                             </p>
-                            <a href="/contact.php" class="btn btn-primary">Details</a>
+                            <a href="/history.php" class="btn btn-primary">Details</a>
 
                         </div>
                     </div>
