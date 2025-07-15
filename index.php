@@ -46,10 +46,28 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Bob Schiff, SK</h5>
-                        <img src="images/bob.jpg" alt="Photo of Bob Schiff" width="75%">
-                        <p>In Memory of Bob Schiff, KA9HHH, sk March 30, 2020</p>
+                    <div >
+                        <div class="card-body">
+                            <h5 class="card-title">Events</h5>
+                            <table class="table table-sm ">
+                                <tbody>
+                                <tr>
+                                    <td><a href="/picnic-2025.php">Picnic</td>
+                                    <td>August, 24, 2025</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/papaChris.php">Saturday Lunch</a></td>
+                                    <td>Saturdays</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/holidayParty.php">Holiday Party</a></td>
+                                    <td>December</td>
+                                </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,11 +105,11 @@
                 <div class="card h-100">
                     <div>
                         <div class="card-body">
-                            <h5 class="card-title">SARA Info<h5>
+                            <h5 class="card-title">Public Service<h5>
                             <p>
-                                Contact, Join, Support
+                                SARA Helps Out
                             </p>
-                            <a href="/contact.php" class="btn btn-primary">Details</a>
+                            <a href="/publicService.php" class="btn btn-primary">Details</a>
 
                         </div>
                     </div>
@@ -99,27 +117,14 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <div >
+                    <div>
                         <div class="card-body">
-                            <h5 class="card-title">Events</h5>
-                            <table class="table table-sm ">
-                                <tbody>
-                                <tr>
-                                    <td><a href="/picnic-2025.php">Picnic</td>
-                                    <td>August, 24, 2025</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="/papaChris.php">Saturday Lunch</a></td>
-                                    <td>Saturdays</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="/holidayParty.php">Holiday Party</a></td>
-                                    <td>December</td>
-                                </tr>
+                            <h5 class="card-title">SARA Info<h5>
+                            <p>
+                                Contact, Join, Support
+                            </p>
+                            <a href="/contact.php" class="btn btn-primary">Details</a>
 
-
-                                </tbody>
-                            </table>
                         </div>
                     </div>
                 </div>
@@ -138,6 +143,16 @@
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Bob Schiff, SK</h5>
+                        <img src="images/bob.jpg" alt="Photo of Bob Schiff" width="75%">
+                        <p>In Memory of Bob Schiff, KA9HHH, sk March 30, 2020</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
