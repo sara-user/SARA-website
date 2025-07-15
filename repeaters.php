@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<?php
+include 'includes/header.php';
+include 'includes/back.php';
+?>
 <p>Located in the Lincoln Park Community of Chicago.</p>
 
 <div class="row">

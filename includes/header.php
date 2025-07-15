@@ -7,44 +7,24 @@
     <title>SARA</title>
     <link rel="stylesheet" href="/css/styles.css"/>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
 </head>
-    <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYVJCY1FT4"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-YYVJCY1FT4');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-YYVJCY1FT4');
 </script>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/index.php" title="Suburban Amateur Repeater Association">SARA</a>
-    <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav nav-pills mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/history.php">History</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" <?php if ($activePage === 'home') echo 'active'; ?> href="/repeaters.php">Repeaters</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/nets.php">Nets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact.php" <?php if ($activePage === 'contact') echo 'active'; ?>>Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
+</body>
+
 <main>
