@@ -1,0 +1,13 @@
+CREATE TABLE members (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100),
+  callsign VARCHAR(50),
+  address VARCHAR(255),
+  city VARCHAR(100),
+  state VARCHAR(50),
+  zip VARCHAR(20),
+  phone VARCHAR(50),
+  add_to_group TINYINT(1),
+  submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

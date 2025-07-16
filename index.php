@@ -46,7 +46,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <div >
+                    <div>
                         <div class="card-body">
                             <h5 class="card-title">Events</h5>
                             <table class="table table-sm ">
@@ -105,11 +105,12 @@
                 <div class="card h-100">
                     <div>
                         <div class="card-body">
-                            <h5 class="card-title">Public Service<h5>
-                            <p>
-                                SARA Helps Out
-                            </p>
-                            <a href="/publicService.php" class="btn btn-primary">Details</a>
+                            <h5 class="card-title">Public Service
+                                <h5>
+                                    <p>
+                                        SARA Helps Out
+                                    </p>
+                                    <a href="/publicService.php" class="btn btn-primary">Details</a>
 
                         </div>
                     </div>
@@ -119,25 +120,30 @@
                 <div class="card h-100">
                     <div>
                         <div class="card-body">
-                            <h5 class="card-title">SARA Info<h5>
-                            <p>
-                                Contact, Join, Support
-                            </p>
-                            <a href="/contact.php" class="btn btn-primary">Details</a>
-
+                            <h5 class="card-title">SARA Info
+                                <h5>
+                                    <table>
+                                        <tr>
+                                            <td><a href="contact.php">Join</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="whoWeAre.php">Who we are</a></td>
+                                        </tr>
+                                    </table>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <div >
+                    <div>
                         <div class="card-body">
-                            <h5 class="card-title">History<h5>
-                            <p>
-                                Since 1967
-                            </p>
-                            <a href="/history.php" class="btn btn-primary">Details</a>
+                            <h5 class="card-title">History
+                                <h5>
+                                    <p>
+                                        Since 1967
+                                    </p>
+                                    <a href="/history.php" class="btn btn-primary">Details</a>
 
                         </div>
                     </div>
