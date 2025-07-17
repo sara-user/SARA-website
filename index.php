@@ -153,7 +153,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Bob Schiff, SK</h5>
-                        <img src="images/bob.jpg" alt="Photo of Bob Schiff" width="75%">
+                        <img src="images/bob.jpg" alt="Photo of Bob Schiff" width="50%">
                         <p>In Memory of Bob Schiff, KA9HHH, sk March 30, 2020</p>
                     </div>
                 </div>
