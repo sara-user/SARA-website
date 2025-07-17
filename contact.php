@@ -82,7 +82,7 @@ EOD;
 
                 <div class="col-md-6">
                     <label class="form-label">Call Sign</label>
-                    <input type="text" name="callsign" class="form-control" required>
+                    <input type="text" name="callsign" class="form-control" style="text-transform: uppercase;" required>
                 </div>
 
                 <div class="col-12">
