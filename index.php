@@ -7,9 +7,7 @@
 
 
     <div class="d-flex align-items-center gap-2">
-        <img src="images/picnic-svgrepo-com.svg" alt="Icon 1" width="32" height="32">
-        <a href="picnic-2025.php"><h3>Annual SARA Picnic Sunday August 24, 2025</h3></a>
-        <img src="images/antenna-svgrepo-com.svg" alt="Icon 2" width="32" height="32">
+        <a href="picnic-2025-photos.php"><h3>2025 SARA Picnic Photos</h3></a>
     </div>
 
     <div class="container mt-4">
@@ -52,8 +50,8 @@
                             <table class="table table-sm ">
                                 <tbody>
                                 <tr>
-                                    <td><a href="/picnic-2025.php">Picnic</td>
-                                    <td>August, 24, 2025</td>
+                                    <td><a href="/picnic.php">Picnic</a></td>
+                                    <td><a href="/picnic-2025-photos.php">2025 Photos</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="/papaChris.php">Saturday Lunch</a></td>
