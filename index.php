@@ -50,19 +50,17 @@
                             <table class="table table-sm ">
                                 <tbody>
                                 <tr>
-                                    <td><a href="/picnic.php">Picnic</a></td>
-                                    <td><a href="/picnic-2025-photos.php">2025 Photos</a></td>
+                                    <td><a href="/holidayParty.php">Chistmas Party</a></td>
+                                    <td>Tues 12/9/2025</td>
                                 </tr>
                                 <tr>
                                     <td><a href="/papaChris.php">Saturday Lunch</a></td>
                                     <td>Saturdays</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="/holidayParty.php">Holiday Party</a></td>
-                                    <td>December</td>
+                                    <td><a href="/picnic.php">Picnic</a></td>
+                                    <td><a href="/picnic-2025-photos.php">2025 Photos</a></td>
                                 </tr>
-
-
                                 </tbody>
                             </table>
                         </div>

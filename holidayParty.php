@@ -2,8 +2,8 @@
     include 'includes/header.php'; ?>
 
 <div class="container">
-    <h3>Holiday Party</h3>
-    <p>Usually held on the second Tuesday in December.</p>
+    <h3>Christmas Party</h3>
+    <p>Save the date: <em>Tuesday December 9th, 2025.</em>  </p>
     <p>Location, price and time will be posted as the event nears.</p>
 </div>
 <?php include 'includes/footer.php'; ?>
