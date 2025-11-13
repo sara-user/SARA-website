@@ -29,34 +29,7 @@ Phone: $phone
 Add to Group: $addGroup
 EOD;
     $headers = "From: $email";
-
-    $emailSent = mail($to, $subject, $message, $headers);
-
-    // --- DATABASE ---
-    $dbHost = "localhost";
-    $dbName = "sara-db";
-    $dbUser = "website";
-    $dbPass = "349B4Qoj5qXhF8W";
-
-    try {
-        $pdo = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUser, $dbPass);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-        $stmt = $pdo->prepare("
-            INSERT INTO members (name, email, callsign, address, city, state, zip, phone, add_to_group)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ");
-        $stmt->execute([
-            $name, $email, $callsign, $address, $city, $state, $zip, $phone, $addGroup
-        ]);
-
-        $status = $emailSent
-            ? "✅ Message sent and saved successfully."
-            : "⚠️ Saved to database, but email failed.";
-
-    } catch (PDOException $e) {
-        $status = "❌ Database error: " . $e->getMessage();
-    }
+    mail($to, $subject, $message, $headers);
 }
 ?>
 
