@@ -17,3 +17,13 @@ body {
     color: chocolate;
     width: fit-content;
 }
+
+.picnic-table {
+    border-collapse: collapse;
+}
+
+.picnic-table th,
+.picnic-table td {
+    border: 1px solid currentColor;
+    padding: 4px 8px;
+}
