@@ -8,7 +8,7 @@ Testing locally, using PHP's built-in webserver, not for production use:
 - Mostly HTML
 - [Bootstrap](https://getbootstrap.com) 
 - A bit of PHP for header, footer and contact form.
-- MySQL for contact page form.
+~~- MySQL for contact page form.~~
 
 
 ## Deploy
