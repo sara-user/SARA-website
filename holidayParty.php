@@ -1,5 +1,9 @@
 <?php
-include 'includes/header.php'; ?>
+require_once __DIR__ . '/includes/event-data.php';
+include 'includes/header.php';
+
+$latestParty = sara_latest_event('holiday-party');
+?>
 
 <div class="container">
     <h3>Christmas Party</h3>
@@ -13,5 +17,10 @@ include 'includes/header.php'; ?>
         All members and their guests are invited to attend. Cost is $15.00 per person.</p>
 
     <p> Pizza and soft drinks will be served (buffet-style).</p>
+
+    <?php if ($latestParty !== null) : ?>
+        <p>See the <a href="<?php echo htmlspecialchars(sara_event_url($latestParty['slug']), ENT_QUOTES); ?>">photos</a>
+            from the <?php echo htmlspecialchars(substr($latestParty['date'], 0, 4), ENT_QUOTES); ?> party.</p>
+    <?php endif; ?>
 </div>
 <?php include 'includes/footer.php'; ?>

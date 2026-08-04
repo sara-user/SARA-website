@@ -1,4 +1,8 @@
-<?php $activePage = $activePage ?? ''; ?>
+<?php
+$activePage = $activePage ?? '';
+// Extra <head> markup for a single page, set before including this file.
+$extraHead = $extraHead ?? '';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +13,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
+    <?php echo $extraHead; ?>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYVJCY1FT4"></script>
