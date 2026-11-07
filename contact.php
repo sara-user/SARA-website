@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $addGroup = isset($_POST['add_to_group']) ? 1 : 0;
 
     // --- EMAIL ---
-    $to = "sara@u505.com";  // ← update this
+    $to = "nate@w9sdi.com";  // ← update this
     $subject = "New Membership Submission";
     $message = <<<EOD
 Name: $name
@@ -102,6 +102,6 @@ EOD;
 
 
     <p>Annual Dues are $30</p>
-    <p>For more information contact <a href="mailto:sara@u505.com?subject=Contact%20Request">Email us</a></p>
+    <p>For more information contact <a href="mailto:nate@w9sdi.com?subject=Contact%20Request">Email us</a></p>
 </div>
 <?php include 'includes/footer.php'; ?>
