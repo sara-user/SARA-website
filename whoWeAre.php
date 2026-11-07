@@ -17,8 +17,8 @@ include 'includes/header.php'; ?>
             <td>Secretary</td>
             <td>
                 <figure class="p-0 m-0">
-                    <img src="/images/NoHam.jpg" alt="Neil Schlaffer, AA9KK">
-                    <figcaption class="m-0 p-0">Neil Schlaffer, AA9KK</figcaption>
+                    <img src="/images/nate.jpg" alt="Nate Russell, W9SDI" width="50%">
+                    <figcaption class="m-0 p-0">Nate Russell, W9SDI</figcaption>
                 </figure>
             </td>
         </tr>
@@ -63,7 +63,9 @@ include 'includes/header.php'; ?>
         </tr>
     </table>
     <p>SARA, the Suburban Amateur Repeater Association is a 501(c)(3) orgnization. </p>
-    <p>P.O. Box 56012 Harwood Heights, IL 60656-6012</p>
+    <p>PO BOX 204
+        300 N Vine St
+        New Lenox, IL 60451-9998</p>
     <p>Copyright © 2024-2026 Suburban Amateur Repeater Association - All Rights Reserved</p>
 </div>
 
