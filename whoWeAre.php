@@ -69,5 +69,4 @@ include 'includes/header.php'; ?>
     <p>Copyright © 2024-2026 Suburban Amateur Repeater Association - All Rights Reserved</p>
 </div>
 
-
 <?php include 'includes/footer.php'; ?>
