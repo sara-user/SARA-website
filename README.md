@@ -85,6 +85,8 @@ Spaces, commas and `&` in file names are fine.
 
 ## Deploy
 ```aiignore
+rm -rf SARA-website.BAK
+mv SARA-website SARA-website.BAK
 git clone https://github.com/sara-user/SARA-website
 cd SARA-website/
 cp -R * ..

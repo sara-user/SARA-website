@@ -63,8 +63,8 @@ include 'includes/header.php'; ?>
         </tr>
     </table>
     <p>SARA, the Suburban Amateur Repeater Association is a 501(c)(3) orgnization. </p>
-    <p>PO BOX 206
-        300 N Vine St
+    <p>PO Box 206<br/>
+        300 N Vine St<br/>
         New Lenox, IL 60451-9998</p>
     <p>Copyright © 2024-2026 Suburban Amateur Repeater Association - All Rights Reserved</p>
 </div>
