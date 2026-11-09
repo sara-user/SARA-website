@@ -63,7 +63,7 @@ $picnicSlugs  = sara_event_slugs('picnic');
                                 <tbody>
                                 <tr>
                                     <td><a href="holidayParty.php">Chistmas Party</a></td>
-                                    <td><?php echo sara_photo_link('holiday-party') ?: 'Tues 12/9/2025'; ?></td>
+                                    <td><?php echo sara_photo_link('holiday-party') ?: 'Tues 12/15/2026'; ?></td>
                                 </tr>
                                 <tr>
                                     <td><a href="papaChris.php">Saturday Lunch</a></td>
