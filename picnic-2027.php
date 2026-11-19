@@ -4,7 +4,7 @@ include 'includes/back.php';
 ?>
 <div class="container">
     <h2>SARA Annual Picnic - 2027</h2>
-    <p>The annual SARA picnic will be held on Sunday, July 24th at LaBagh Woods  in Chicago.</p>
+    <p>The annual SARA picnic will be held on Saturday, July 24th at LaBagh Woods  in Chicago.</p>
     <p>Enter LaBagh woods from Cicero, not Foster</p>
     <p>A pavilion is onsite should it rain.</p>
     <p>Food starts around 11AM<br>Hot dogs, sausages, buns, soft drinks and a few other goodies will be provided. Food and drink contributions are welcome; it's a good time to show off your favorites.</p>

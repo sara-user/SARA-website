@@ -69,12 +69,16 @@ $picnicSlugs  = sara_event_slugs('picnic');
                                     <td><a href="papaChris.php">Saturday Lunch</a></td>
                                     <td>Saturdays</td>
                                 </tr>
+                                <tr>
+                                    <td><a href="picnic-2027.php">Picnic</a></td>
+                                    <td>Saturday 7/24/2027</td>
+                                </tr>
                                 <?php // One row per picnic gallery; a new folder of photos adds itself. ?>
-                                <?php foreach ($picnicSlugs as $i => $slug) :
+                                <?php foreach ($picnicSlugs as $slug) :
                                     $picnic = sara_event_meta($slug);
                                     ?>
                                     <tr>
-                                        <td><?php if ($i === 0) : ?><a href="picnic-2027.php">Picnic</a><?php endif; ?></td>
+                                        <td></td>
                                         <td>
                                             <a href="<?php echo htmlspecialchars(sara_event_url($slug), ENT_QUOTES); ?>">
                                                 <?php echo htmlspecialchars(substr($picnic['date'], 0, 4), ENT_QUOTES); ?> Photos
@@ -82,12 +86,6 @@ $picnicSlugs  = sara_event_slugs('picnic');
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
-                                <?php if ($picnicSlugs === []) : ?>
-                                    <tr>
-                                        <td><a href="picnic-2027">Picnic</a></td>
-                                        <td>Late Summer</td>
-                                    </tr>
-                                <?php endif; ?>
                                 <tr>
                                     <td><a href="events.php">Photo Galleries</a></td>
                                     <td>All events</td>
