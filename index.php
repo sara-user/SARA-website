@@ -74,7 +74,7 @@ $picnicSlugs  = sara_event_slugs('picnic');
                                     $picnic = sara_event_meta($slug);
                                     ?>
                                     <tr>
-                                        <td><?php if ($i === 0) : ?><a href="picnic.php">Picnic</a><?php endif; ?></td>
+                                        <td><?php if ($i === 0) : ?><a href="picnic-2027.php">Picnic</a><?php endif; ?></td>
                                         <td>
                                             <a href="<?php echo htmlspecialchars(sara_event_url($slug), ENT_QUOTES); ?>">
                                                 <?php echo htmlspecialchars(substr($picnic['date'], 0, 4), ENT_QUOTES); ?> Photos
@@ -84,7 +84,7 @@ $picnicSlugs  = sara_event_slugs('picnic');
                                 <?php endforeach; ?>
                                 <?php if ($picnicSlugs === []) : ?>
                                     <tr>
-                                        <td><a href="picnic.php">Picnic</a></td>
+                                        <td><a href="picnic-2027">Picnic</a></td>
                                         <td>Late Summer</td>
                                     </tr>
                                 <?php endif; ?>
