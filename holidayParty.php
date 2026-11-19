@@ -6,7 +6,7 @@ $latestParty = sara_latest_event('holiday-party');
 ?>
 
 <div class="container">
-    <h3>Christmas Party</h3>
+    <h3>Holiday Party</h3>
     <img src="/images/holiday/holly-2957539.svg" alt="Holly" width="10%">
     <p>Save the date: <em>Tuesday December 15th, 2026 7PM.</em></p>
     <p>Dino's Pizza & Italian Restaurant<br/>

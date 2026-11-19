@@ -62,7 +62,7 @@ $picnicSlugs  = sara_event_slugs('picnic');
                             <table class="table table-sm ">
                                 <tbody>
                                 <tr>
-                                    <td><a href="holidayParty.php">Chistmas Party</a></td>
+                                    <td><a href="holidayParty.php">Holiday Party</a></td>
                                     <td><?php echo sara_photo_link('holiday-party') ?: 'Tues 12/15/2026'; ?></td>
                                 </tr>
                                 <tr>
