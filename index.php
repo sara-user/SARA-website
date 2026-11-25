@@ -103,24 +103,42 @@ $picnicSlugs  = sara_event_slugs('picnic');
                     <div class="nets">
                         <div class="card-body">
                             <h5 class="card-title">Nets on 146.88 Mhz</h5>
-                            <table class="table table-sm ">
+                            <table class="table table-sm">
+                                <thead class="table-primary">
+                                <tr>
+                                    <th scope="col">Net</th>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Time</th>
+                                </tr>
+                                </thead>
                                 <tbody>
                                 <tr>
-                                    <td><a href="https://www.csraham.com" target="_blank"
-                                           title="Chicago Suburban Radio Association">CSRA</td>
-                                    <td>Mondays 7PM</td>
+                                    <td><a href="https://w9src.org" target="_blank" title="STARS">STARS general net</a></td>
+                                    <td>Saturday</td>
+                                    <td>7PM</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://wcars.radio" target="_blank"
-                                           title="Windy City Amateur Radio Society">WCARS
-                                    </td>
-                                    <td>Thursdays 7PM</td>
+                                    <td><a href="https://www.csraham.com" target="_blank" title="Chicago Suburban Radio Association">CSRA</a></td>
+                                    <td>Monday</td>
+                                    <td>7PM</td>
                                 </tr>
-
-
+                                <tr>
+                                    <td><a href="https://www.hamfesters.org" target="_blank" title="Hamfesters Radio Club">Hamfesters weekly net</a></td>
+                                    <td>Monday</td>
+                                    <td>9PM</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://w9src.org" target="_blank" title="STARS">STARS Skywarn</a></td>
+                                    <td>Wednesday</td>
+                                    <td>7PM</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://wcars.radio" target="_blank" title="Windy City Amateur Radio Society">WCARS</a></td>
+                                    <td>Thursday</td>
+                                    <td>7PM</td>
+                                </tr>
                                 </tbody>
                             </table>
-                            <a href="/nets.php" class="btn btn-primary">Details</a>
 
                         </div>
                     </div>
